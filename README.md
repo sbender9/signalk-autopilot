@@ -8,6 +8,8 @@
 - [A graphical interface that emulates a Raymarine remote control](./GUI-help.md "GUI help")
 - A back-end API described below.
 
+This current only supports Raymarine NMEA 2000 Autopilots, but I'll be adding support for other autopilots as needed.
+
 # API
 
 All messages to plugin are done using PUT requests. These can be done via HTTP or over WebSockets.
