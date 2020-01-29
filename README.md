@@ -67,10 +67,9 @@ PUT http://localhost:3000/signalk/v1/api/vessels/self/steering/autopilot/actions
 }
 ```
 
-## Take a tack to port or starboard
+## Tack to port or starboard
 
 The `value` is `port` or `starboard`. 
-This command must be send only when your pilot is in `auto` or `wind` mode.
 
 ```
 PUT http://localhost:3000/signalk/v1/api/vessels/self/steering/autopilot/actions/tack
