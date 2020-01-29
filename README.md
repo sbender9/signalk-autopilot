@@ -1,7 +1,5 @@
 # signalk-autopilot
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/sbender9/signalk-autopilot.svg)](https://greenkeeper.io/)
-
 <p align="center"><img src="./small-rayremote.png"></p>
 
 `signalk-autopilot` is composed of 2 modules: 
