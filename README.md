@@ -14,6 +14,8 @@ This current only supports Raymarine NMEA 2000 Autopilots, but I'll be adding su
 
 All messages to plugin are done using PUT requests. These can be done via HTTP or over WebSockets.
 
+Detailed info on [PUT](https://signalk.org/specification/1.3.0/doc/put.html) and [Request/Response](https://signalk.org/specification/1.3.0/doc/request_response.html)
+
 Http:
 
 ```
@@ -28,7 +30,7 @@ Delta:
 ```
 {
   "context": "vessels.self",
-  "correlationId": "184743-434373-348483",
+  "requestId": "184743-434373-348483",
   "put": {
     "path": "steering.autopilot.target.headingMagnetic",
     "value": 1.52
